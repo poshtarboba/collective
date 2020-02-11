@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: #fff;
+	color: #000983;
+}
+
+.dark {
+	color: #fff;
+	background: #000983;
+}
+
+h2 {
+	position: relative;
+}
+h2:after {
+	content: ""
+	left: 50%;
+	bottom: 10px;
+	width: 60px;
+	height: 1px;
+	background: #000983;
+	transform: translate(-50%, 0);
+}
+.dark h2:after {
+	background: #fff;
+}
+h1 {
+	font-size: 96px;
+	line-height: 112px;
+}
+h2 {
+	font-size: 36px;
+	line-height: 48px;
+}
+h3 {
+	font-size: 34px;
+	line-height: 48px;
+}
